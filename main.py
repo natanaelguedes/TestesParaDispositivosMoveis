@@ -32,5 +32,4 @@ el3.click()
 el4 = driver.find_element(by=AppiumBy.ACCESSIBILITY_ID, value="equals")
 el4.click()
 undefined = driver.find_elements(by=AppiumBy.XPATH, value="")
-
 driver.quit()
